@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parallel Test Execution" parallel="classes" thread-count="1">
+    <listeners>
+    <listener class-name="utils.RetryListener"></listener>
+    </listeners>
+    <test name="API Users TestCase">
+        <classes>
+            <class name="postMethod.PostJsonPayloadReader"/>
+            <class name="putMethod.PutJsonPayloadReader"/>
+            <class name="patchMethod.PatchJsonPayloadReader"/>
+            <class name="postMethod.PostPayloadPOJO"/>
+
+        </classes>
+    </test>
+</suite>
+
+

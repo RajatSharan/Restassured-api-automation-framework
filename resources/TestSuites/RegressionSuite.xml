@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="API Automation Smoke Suite">
+    <test name="API Users TestCase">
+        <groups>
+            <run>
+                <include name="RegressionSuite"></include>
+            </run>
+        </groups>
+        <packages>
+            <package name="RestAssuredCoreTests"/>
+        </packages>
+    </test>
+</suite>
