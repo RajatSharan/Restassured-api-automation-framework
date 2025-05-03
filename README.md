@@ -130,5 +130,3 @@ Reports are generated using Extent Reports with custom configurations from /reso
 ✅ Add test data → update /resources/testdata or properties files
 ✅ Configure reports → modify /resources/extent-config.xml
 
-🤝 Contributing
-Contributions welcome! Feel free to fork, create pull requests, or raise issues.
