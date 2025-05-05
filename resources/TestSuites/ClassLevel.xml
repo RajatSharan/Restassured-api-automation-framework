@@ -10,6 +10,7 @@
             <class name="putMethod.PutJsonPayloadReader"/>
             <class name="patchMethod.PatchJsonPayloadReader"/>
             <class name="postMethod.PostPayloadPOJO"/>
+            <class name="chainingMethod.APIChaining"/>
 
         </classes>
     </test>
